@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Redressed&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,Arial,sans-serif;
+}
+.content{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;font-size: 18px;
+    font-weight: 400;
+    line-height: 2.25rem;
+    hyphens: auto;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.welcome{
+    margin-top: 10px;
+    font-size: 28px;
+}
+.item1__info{
+    margin: 8px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 14px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    flex-wrap: nowrap;
+}
+.item{
+    height: 260px;
+    width: 480px;
+    border: 2px solid rgb(196, 176, 176);
+    position: relative;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.item__detail{
+    width: 60%;
+    padding-left:  25px;
+    padding-top:25px ;
+    padding-bottom: 0;
+}
+.item__image{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+.link{
+    border-top: 2px solid rgb(196, 176, 176);
+    width: 457px;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    left: 0%;
+    padding-left:25px;
+    padding-top:15px ;
+}
+.a__link{
+    color:#1a73e8;
+    font-weight:bold;
+    font-size: 14px;
+}
+.item__heading{
+    margin-bottom: 15px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.item3__detail{
+    height: 270px;
+    width: 1008px;
+    border: 2px solid rgb(196, 176, 176);
+    position: relative;
+    bottom: 0;
+    border-radius: 16px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+.item3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top:-30px;
+    flex-wrap: nowrap;
+}
+.item3__heading{
+    margin-bottom: 15px;
+    margin-top: 12px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top:30px ;
+}
+.item3__link{
+    border-top: 2px solid rgb(196, 176, 176);
+    width: 985px;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    left: 0%;
+    padding-left:25px;
+    padding-top:15px ;
+}
+.item__a{
+    color:#1a73e8;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+.item3__info{
+    padding-left:30px;
+    padding-top: 2px;
+}
+.item3__image{
+    position: absolute;
+    right: 310px;
+    top: 80px;
+}
